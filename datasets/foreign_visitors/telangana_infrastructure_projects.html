@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_cf808379715587ef68faa89f5aff6636 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_cf808379715587ef68faa89f5aff6636" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_cf808379715587ef68faa89f5aff6636 = L.map(
+                "map_cf808379715587ef68faa89f5aff6636",
+                {
+                    center: [17.385044, 78.486671],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_726807264f7a6c1f1b7fb15d239452fd = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_726807264f7a6c1f1b7fb15d239452fd.addTo(map_cf808379715587ef68faa89f5aff6636);
+        
+    
+            var marker_2b9c6c1759c0bdb735b9e08c760a5933 = L.marker(
+                [17.385044, 78.486671],
+                {}
+            ).addTo(map_cf808379715587ef68faa89f5aff6636);
+        
+    
+            var icon_c7bca1a44bb50e354900e97482b8564d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2b9c6c1759c0bdb735b9e08c760a5933.setIcon(icon_c7bca1a44bb50e354900e97482b8564d);
+        
+    
+        var popup_233f008b8b7a7e8269182369c03faa45 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_debf31107d128e7c2364ed51e6f0afbb = $(`<div id="html_debf31107d128e7c2364ed51e6f0afbb" style="width: 100.0%; height: 100.0%;">Active Project: Mission Kakatiya</div>`)[0];
+                popup_233f008b8b7a7e8269182369c03faa45.setContent(html_debf31107d128e7c2364ed51e6f0afbb);
+            
+        
+
+        marker_2b9c6c1759c0bdb735b9e08c760a5933.bindPopup(popup_233f008b8b7a7e8269182369c03faa45)
+        ;
+
+        
+    
+    
+            var marker_4037b1688abf60a7ecf18613126ab08e = L.marker(
+                [17.5, 78.6],
+                {}
+            ).addTo(map_cf808379715587ef68faa89f5aff6636);
+        
+    
+            var icon_3514e22d2d8cf1833c45ef7b952b35ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4037b1688abf60a7ecf18613126ab08e.setIcon(icon_3514e22d2d8cf1833c45ef7b952b35ee);
+        
+    
+        var popup_0ac61c8c5c941e05265e14fe42d23adb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b37332b55d5e2777af52e4d565577fc = $(`<div id="html_1b37332b55d5e2777af52e4d565577fc" style="width: 100.0%; height: 100.0%;">Active Project: Mission Bhagiratha</div>`)[0];
+                popup_0ac61c8c5c941e05265e14fe42d23adb.setContent(html_1b37332b55d5e2777af52e4d565577fc);
+            
+        
+
+        marker_4037b1688abf60a7ecf18613126ab08e.bindPopup(popup_0ac61c8c5c941e05265e14fe42d23adb)
+        ;
+
+        
+    
+    
+            var marker_6c032a280ff69e636633595270952ae4 = L.marker(
+                [17.3, 78.4],
+                {}
+            ).addTo(map_cf808379715587ef68faa89f5aff6636);
+        
+    
+            var icon_ec79578e1518f240a1487bb4270d288b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6c032a280ff69e636633595270952ae4.setIcon(icon_ec79578e1518f240a1487bb4270d288b);
+        
+    
+        var popup_e2d1fd8d5509c65f51cefada1ab63817 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7988e36f83dbbe0b3e0d25b18819444c = $(`<div id="html_7988e36f83dbbe0b3e0d25b18819444c" style="width: 100.0%; height: 100.0%;">Active Project: Mana Ooru Mana Badi</div>`)[0];
+                popup_e2d1fd8d5509c65f51cefada1ab63817.setContent(html_7988e36f83dbbe0b3e0d25b18819444c);
+            
+        
+
+        marker_6c032a280ff69e636633595270952ae4.bindPopup(popup_e2d1fd8d5509c65f51cefada1ab63817)
+        ;
+
+        
+    
+    
+            var marker_a1af9fea6ad53ba684aa7d79e222ec57 = L.marker(
+                [17.7, 78.8],
+                {}
+            ).addTo(map_cf808379715587ef68faa89f5aff6636);
+        
+    
+            var icon_17ffa981c42a28391f2fd98b979af5b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a1af9fea6ad53ba684aa7d79e222ec57.setIcon(icon_17ffa981c42a28391f2fd98b979af5b0);
+        
+    
+        var popup_7856447a1823c0a238a69c777fbfbb17 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7efc07bc7516e4bcdfdb65a4a6464d2 = $(`<div id="html_e7efc07bc7516e4bcdfdb65a4a6464d2" style="width: 100.0%; height: 100.0%;">Active Project: Industrial Park</div>`)[0];
+                popup_7856447a1823c0a238a69c777fbfbb17.setContent(html_e7efc07bc7516e4bcdfdb65a4a6464d2);
+            
+        
+
+        marker_a1af9fea6ad53ba684aa7d79e222ec57.bindPopup(popup_7856447a1823c0a238a69c777fbfbb17)
+        ;
+
+        
+    
+    
+            var marker_54f85f0b7f7ce39aeeeca66dd29fe800 = L.marker(
+                [17.5, 79.6],
+                {}
+            ).addTo(map_cf808379715587ef68faa89f5aff6636);
+        
+    
+            var icon_a8e164c9ccd667b694bb4c5a18aecb2b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_54f85f0b7f7ce39aeeeca66dd29fe800.setIcon(icon_a8e164c9ccd667b694bb4c5a18aecb2b);
+        
+    
+        var popup_295f344e3e3cae586f3d7e255abeb655 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6dbf31ada3585776966af34c131d71ce = $(`<div id="html_6dbf31ada3585776966af34c131d71ce" style="width: 100.0%; height: 100.0%;">Upcoming Project: Warangal to Khammam Highway</div>`)[0];
+                popup_295f344e3e3cae586f3d7e255abeb655.setContent(html_6dbf31ada3585776966af34c131d71ce);
+            
+        
+
+        marker_54f85f0b7f7ce39aeeeca66dd29fe800.bindPopup(popup_295f344e3e3cae586f3d7e255abeb655)
+        ;
+
+        
+    
+    
+            var marker_6469bdc1a44aaeea56f08ced1c008b7a = L.marker(
+                [16.5, 80.6],
+                {}
+            ).addTo(map_cf808379715587ef68faa89f5aff6636);
+        
+    
+            var icon_9886a22955ba6c9daf54ef6dfb3955f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6469bdc1a44aaeea56f08ced1c008b7a.setIcon(icon_9886a22955ba6c9daf54ef6dfb3955f3);
+        
+    
+        var popup_a93dd811479c153dc6edff5861ab20d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f188543c4efeb1b08ea34cb352a90847 = $(`<div id="html_f188543c4efeb1b08ea34cb352a90847" style="width: 100.0%; height: 100.0%;">Upcoming Project: Khammam to Vijayawada Highway</div>`)[0];
+                popup_a93dd811479c153dc6edff5861ab20d0.setContent(html_f188543c4efeb1b08ea34cb352a90847);
+            
+        
+
+        marker_6469bdc1a44aaeea56f08ced1c008b7a.bindPopup(popup_a93dd811479c153dc6edff5861ab20d0)
+        ;
+
+        
+    
+    
+            var marker_4ca2f319db5bdb69bc6a4fb4bfa39c78 = L.marker(
+                [17.3, 80.4],
+                {}
+            ).addTo(map_cf808379715587ef68faa89f5aff6636);
+        
+    
+            var icon_142c9ba0624398e659c4de880746d78b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4ca2f319db5bdb69bc6a4fb4bfa39c78.setIcon(icon_142c9ba0624398e659c4de880746d78b);
+        
+    
+        var popup_504e5306664115c821e0c7e05064c323 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a68dc63a2fb61e29bc69e49417b3235 = $(`<div id="html_5a68dc63a2fb61e29bc69e49417b3235" style="width: 100.0%; height: 100.0%;">Upcoming Project: Suryapet to Khammam Highway</div>`)[0];
+                popup_504e5306664115c821e0c7e05064c323.setContent(html_5a68dc63a2fb61e29bc69e49417b3235);
+            
+        
+
+        marker_4ca2f319db5bdb69bc6a4fb4bfa39c78.bindPopup(popup_504e5306664115c821e0c7e05064c323)
+        ;
+
+        
+    
+    
+            var marker_47d090e9a06bb164565ce58798ec1466 = L.marker(
+                [17.5, 80.3],
+                {}
+            ).addTo(map_cf808379715587ef68faa89f5aff6636);
+        
+    
+            var icon_00ce25c075e3169b78ec379942f7817a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_47d090e9a06bb164565ce58798ec1466.setIcon(icon_00ce25c075e3169b78ec379942f7817a);
+        
+    
+        var popup_92a088e49e1db6e2325b2a8a9758ff7b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24b4c460aa2ba02a38d9b4ab849f33cf = $(`<div id="html_24b4c460aa2ba02a38d9b4ab849f33cf" style="width: 100.0%; height: 100.0%;">Upcoming Project: Samakka Sarakka Central Tribal University</div>`)[0];
+                popup_92a088e49e1db6e2325b2a8a9758ff7b.setContent(html_24b4c460aa2ba02a38d9b4ab849f33cf);
+            
+        
+
+        marker_47d090e9a06bb164565ce58798ec1466.bindPopup(popup_92a088e49e1db6e2325b2a8a9758ff7b)
+        ;
+
+        
+    
+</script>
+</html>
